@@ -1,0 +1,161 @@
+/* 
+Theme Name: Storefront Child
+Version: 1.0 
+Description: Custom theme for National Behavioral Systems
+Author: Marc Eliot Stein
+Author URI: http://marceliotstein.com 
+Template: storefront
+*/
+
+.site-info {
+  display: none;
+}
+
+.storefront-primary-navigation {
+  display: none;
+}
+
+.storefront-product-sharing {
+  display: none;
+}
+
+#text-3 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  #text-3 {
+    display: none;
+  }
+}
+
+.site-search {
+  display: none;
+}
+
+.storefront-sorting {
+  display: none;
+}
+
+.site-branding {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-variant: small-caps;
+}
+
+.site-header {
+  background-color: black;
+  border-bottom-color: black;
+  margin-bottom: 2em;
+}
+
+.widget .widget-title,
+.widget-title {
+  background-color: black;
+  color: #f7df99;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  padding: .6em 0 .6em 0;
+}
+
+.woocommerce-active .site-header .site-branding {
+  background-color: black;
+  color: #d7bf79;
+  width: 100%;
+  margin-right: 0;
+}
+
+.site-branding .site-title a,
+.site-title a {
+  font-weight: 300;
+  color: #d7bf79;
+  font-size: 1.8em;
+}
+
+@media (max-width: 767px) {
+  .site-branding .site-title a,
+  .site-title a {
+    font-size: 1.4em;
+  }
+}
+
+.site-branding .site-description,
+p.site-branding
+.site-description {
+  color: #d7bf79;
+  font-size: 1.2em;
+}
+
+.site-footer {
+  background-color: #f7df99;
+}
+
+.nbs-footer-wide {
+  width: 100%;
+  padding: 20px;
+  background-color: #f7df99;
+}
+
+.nbs-footer-img {
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.nbs-footer-left {
+  background-color: #f7df99;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nbs-footer-right {
+  color: black;
+  background-color: #f7df99;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.1em;
+  font-variant: small-caps;
+}
+
+.nbs-footer-right h1 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.nbs-footer-narrow {
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+  color: black;
+  background-color: #f7df99;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.1em;
+  font-variant: small-caps;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .nbs-footer-wide {
+  	display: none;
+  }
+
+  .nbs-footer-narrow {
+    display: block;
+  }
+
+  .nbs-footer-img {
+  	width: 250px;
+  }
+}
+
+/* inhibit display of second version of each edition on front page only */
+
+.archive ul.products li.post-264 img,
+.archive ul.products li.post-266 img {
+	display: none;
+}
