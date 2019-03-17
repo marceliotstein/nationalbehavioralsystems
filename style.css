@@ -7,6 +7,30 @@ Author URI: http://marceliotstein.com
 Template: storefront
 */
 
+ul.products li.product .woocommerce-loop-product__title {
+  font-weight: bold;
+}
+
+ul.products li.product .price {
+  font-weight: bold;
+}
+
+.post-267 .woocommerce-loop-product__title::before {
+  content: "The Practical Handbook of Group Counseling (Hard Cover): $31.95"; 
+  display: inline-block;
+  margin: 10px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.post-266 .woocommerce-loop-product__title::before {
+  content: "The Practical Handbook of Group Counseling (Soft Cover): $21.95"; 
+  display: inline-block;
+  margin: 10px;
+  width: 100%;
+  font-weight: 400;
+}
+
 .site-info {
   display: none;
 }
@@ -153,9 +177,3 @@ p.site-branding
   }
 }
 
-/* inhibit display of second version of each edition on front page only */
-
-.archive ul.products li.post-264 img,
-.archive ul.products li.post-266 img {
-	display: none;
-}
